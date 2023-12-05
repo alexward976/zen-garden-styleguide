@@ -292,6 +292,7 @@ footer a:visited {
   color: #fff;
 }
 #zen-intro h1{
+  box-shadow: 0 5px 10px 0 black;
   border-radius: 50%/50%;
   text-align: center;
   padding: 20px;
@@ -301,6 +302,7 @@ animation: slideInLeft 1s ease-in-out forwards;
 animation-delay: .3s;
 }
 #zen-intro h2 {
+  box-shadow: 0 5px 10px 0 black;
   border-radius: 50%/50%;
   text-align: center;
   padding: 10px;
@@ -310,6 +312,7 @@ animation: slideInRight 1s ease-in-out forwards;
 animation-delay: .5s;
 }
 #zen-summary p:first-child {
+  box-shadow: 0 5px 10px 0 black;
   border-radius: 50%/50%;
   text-align: center;
   padding: 30px;
@@ -319,6 +322,7 @@ animation: slideInLeft 1s ease-in-out forwards;
 animation-delay: .7s;
 } 
 #zen-summary p:nth-child(2) {
+  box-shadow: 0 5px 10px 0 black;
   border-radius: 50%/50%;
   text-align: center;
   padding: 10px;
@@ -354,6 +358,10 @@ border-radius: 10px;
   opacity: 0;
 animation: fadeIn 1.5s ease-in-out forwards;
 animation-delay: .3s;
+}
+.wrapper .design-selection, .design-archives, .zen-resources{
+  border-radius: 10%;
+  box-shadow: 0 5px 10px 0 black;
 }
 
 @keyframes slideInLeft {
