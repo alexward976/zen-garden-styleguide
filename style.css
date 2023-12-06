@@ -124,7 +124,7 @@ a:hover {
     gap: 20px;
   }
   .main .requirements {
-    grid-column: 2/4;
+    grid-column: 1/5;
   }
   .main .participation {
     grid-column: 2/4;
