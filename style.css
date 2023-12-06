@@ -164,10 +164,13 @@ a:hover {
   }
 }
 .sidebar .wrapper div {
-  background-color: #4e598c;
+  background: linear-gradient(to top,#4e598c, #f9c7e4);
   padding: 10px;
 }
 .sidebar .wrapper div h3 {
+  color: #fff;
+}
+.sidebar .wrapper a:link{
   color: #fff;
 }
 
@@ -362,8 +365,10 @@ animation-delay: .3s;
 .wrapper .design-selection, .design-archives, .zen-resources{
   border-radius: 10%;
   box-shadow: 0 5px 10px 0 black;
-}
+  background-color: radial-gradient(circle, var(--primary-color), var(--tertiary-color));
 
+}
+/*Animation*/
 @keyframes slideInLeft {
   from {
     opacity: 0;
